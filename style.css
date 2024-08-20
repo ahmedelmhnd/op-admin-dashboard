@@ -1,0 +1,21 @@
+.container
+{
+    display: grid;
+    grid-template: 1fr 5fr / 1fr 5fr;
+    font-size: 100px;
+}
+
+.sidebar
+{
+    grid-row: 1 / 3;
+}
+
+.header
+{
+    
+}
+
+.main-content
+{
+    
+}
