@@ -40,6 +40,8 @@ ul
 
 .dashboard
 {
+    display: flex;
+    align-items: center;
     padding: 15px;
     font-size: 30px;
     font-weight: 500;
@@ -51,4 +53,11 @@ li
     font-size: 18px;
     font-weight: 500;
     padding: 10px;
+}
+
+.icon
+{
+    filter: invert(100%);
+    width: 50px;
+    justify-self: center;
 }
