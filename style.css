@@ -43,21 +43,36 @@ ul
     display: flex;
     align-items: center;
     padding: 15px;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 500;
-
+    gap: 10px;
 }
 
 li
 {
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 500;
     padding: 10px;
+    display: flex;
+    gap: 10px;
+    padding-left: 20px;
 }
 
 .icon
 {
     filter: invert(100%);
-    width: 50px;
+    width: 15px;
     justify-self: center;
+}
+
+.dicon
+{
+    filter: invert(100%);
+    width: 30px;
+    justify-self: center;
+}
+
+.menu
+{
+    padding: 0;
 }
