@@ -18,7 +18,7 @@ body
     background-color:#26a4e3;
     height: 100vh;
     color: white;
-    gap: 35px;
+    gap: 0px;
 }
 
 .header
@@ -26,6 +26,9 @@ body
     background-color: rgb(255, 255, 255);
     position: relative;
     box-shadow: 0px 2px 3px rgb(175, 175, 175);
+
+    display: grid;
+    grid-template: 1fr 2fr / 2fr 1fr;
 }
 
 .main-content
@@ -48,7 +51,7 @@ ul
     gap: 10px;
 }
 
-li
+.menu li
 {
     font-size: 15px;
     font-weight: 500;
@@ -75,4 +78,105 @@ li
 .menu
 {
     padding: 0;
+}
+
+.search
+{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.icon-header
+{
+    width: 20px;
+    align-self: center;
+}
+
+input
+{
+    align-self: center;
+    height: 22px;
+    border-radius: 15px;
+    border: none;
+    background-color: #d9dde2;
+    width: 70%;
+    
+}
+
+.corner
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px ;
+    
+}
+
+.logo-small
+{
+    width: 30px;
+    height: auto;
+    border: 2px solid rgb(63, 63, 63);   
+    border-radius: 50%;
+}
+
+.name
+{
+    font-weight: 500;
+}
+
+.logo-large
+{
+    width: 60px;
+    height: 60px;
+    border: 2px solid rgb(63, 63, 63);   
+    border-radius: 50%;
+    grid-row: 1 / 2;
+    grid-column: 1;
+}
+
+.user-info
+{
+    display: grid;
+    grid-template-columns: auto 2fr;
+    padding-left: 50px;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-subtext
+{
+    grid-column: 2;
+    font-size: small;
+    font-weight: 600;
+}
+
+.header-maintext
+{
+    grid-column: 2;
+    font-size: larger;
+    font-weight: 600;
+}
+
+.buttons
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+button
+{
+    border-radius: 30%;
+    border: none;
+    background-color: #26a4e3;
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.buttons li
+{
+    
 }
